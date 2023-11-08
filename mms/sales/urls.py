@@ -7,4 +7,5 @@ from . import views
 
 urlpatterns = [
     path("order/" , views.listorders),
+    path("customers/" , views.listcustomers),
 ]
